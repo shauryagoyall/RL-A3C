@@ -10,6 +10,5 @@ This code runs evaluation in a separate thread in addition to 16 processes.
 ## Results
 
 With 16 processes it converges for PongDeterministic-v4 in 15 minutes.
-![PongDeterministic-v4](images/PongReward.png)
 
 For BreakoutDeterministic-v4 it takes more than several hours.
