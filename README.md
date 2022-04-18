@@ -3,7 +3,7 @@
 ## Usage
 ```bash
 # Works only wih Python 3.
-python3 main.py --env-name "PongDeterministic-v4" --num-processes 16
+python main.py --env-name "PongDeterministic-v4" --num-processes 16
 ```
 
 This code runs evaluation in a separate thread in addition to 16 processes.
