@@ -1,5 +1,8 @@
 # Current: Vanilla A3c Actor Critic
 
+This code runs on CPU. I am working on making it GPU acessible.
+
+
 ## Usage
 ```bash
 # Works only wih Python 3.
