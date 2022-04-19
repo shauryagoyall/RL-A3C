@@ -8,17 +8,16 @@ Optimizer (my_optim.py) was updated as per latest pytorch functions
 Current: working on making it accessible to the latest gym 
 
 ## Dependencies (Last I checked)
-python 3.x
-pytorch 1.11
-gym 0.9.6 
-numpy
+python 3.x \
+pytorch 1.11 \
+gym 0.9.6  \
+numpy \
 
-gym has the strict requirement of the version
+gym has strict requirements of the version + games have to be added via https://github.com/openai/atari-py#roms
 
 
 ## Usage
 ```bash
-# Works only wih Python 3.
 python main.py --env-name "PongDeterministic-v4" --num-processes 16
 ```
 
