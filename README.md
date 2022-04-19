@@ -1,6 +1,19 @@
 # Current: Vanilla A3c Actor Critic
 
-This code runs on CPU. ~I am working on making it GPU acessible.~
+This code runs on CPU.
+
+## Updates:
+Optimizer (my_optim.py) was updated as per latest pytorch functions
+~I am working on making it GPU acessible.~
+Current: working on making it accessible to the latest gym 
+
+## Dependencies (Last I checked)
+python 3.x
+pytorch 1.11
+gym 0.9.6 
+numpy
+
+gym has the strict requirement of the version
 
 
 ## Usage
