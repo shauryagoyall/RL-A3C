@@ -18,7 +18,8 @@ gym has strict requirements of the version + games have to be added via https://
 
 ## Usage
 ```bash
-python main.py --env-name "PongDeterministic-v4" --num-processes 16
+python main.py --env-name "PongDeterministic-v4" --num-processes 16 \
+python main.py --env-name "Breakout-v5" --num-processes 1 
 ```
 
 This code runs evaluation in a separate thread in addition to 16 processes.
