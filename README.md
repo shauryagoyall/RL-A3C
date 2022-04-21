@@ -29,3 +29,9 @@ This code runs evaluation in a separate thread in addition to 16 processes.
 With 16 processes it should converge for PongDeterministic-v4 in 15 minutes.
 
 For BreakoutDeterministic-v4 it should takes more than several hours.
+
+
+# Updating gym
+
+pip uninstall gym ale-py && pip install gym[atari]
+
